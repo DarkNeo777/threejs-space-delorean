@@ -1,0 +1,32 @@
+
+body {
+  margin: 0;
+}
+#container {
+  position: relative;
+}
+
+#canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+#myBtn {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 1;
+  background-color: aqua;
+  font-size: 24px;
+  text-align: center;
+  border-radius: 8px;
+  border: 2px solid white;
+  transition-duration: 0.4s;
+  width: 100px;
+}
+#myBtn:hover {
+  background-color: white;
+  color: aqua;
+}
